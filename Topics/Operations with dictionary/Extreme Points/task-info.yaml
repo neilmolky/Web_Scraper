@@ -1,0 +1,23 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # The following line creates a dictionary from the input. Do not modify it, please
+    test_dict = json.loads(input())
+
+    # Work with the 'test_dict'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6490#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 2. Runtime error
+
+    Error:
+      File "jailed_code", line 6
+        max_dict = test_dict.items() if value >= max(test_dict.values())
+                                                                       ^
+    SyntaxError: invalid syntax
+  time: Thu, 25 Nov 2021 15:38:19 UTC
+record: -1
